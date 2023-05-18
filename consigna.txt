@@ -11,3 +11,103 @@ Variables:
 
 Ej: 
     mp3 128kbit/s
+    use frecuencia de muestreo 44100khz
+    run yarn watch-build f5
+    jsoncrack-vscode.start
+
+
+https://online-audio-converter.com/es/
+tasa de bits: constante o variable?
+tasa de bits constante
+mp3: {
+    economico: 
+    { 
+        tasa de bits: 64Kbps,
+        canales: 1
+    },
+    estandar: 
+    { 
+        tasa de bits: 128Kbps,
+        canales: 2
+    },
+    buena: 
+    { 
+        tasa de bits: 192Kbps,
+        canales: 2
+    },
+    mejor: 
+    { 
+        tasa de bits: 320Kbps,
+        canales: 2
+    },
+    frecuencia de muestreo: 44100Khz,
+}
+mp2, m4a, ogg: {
+    economico: 
+    { 
+        tasa de bits: 64Kbps,
+        canales: 1
+    },
+    estandar: 
+    { 
+        tasa de bits: 128Kbps,
+        canales: 2
+    },
+    buena: 
+    { 
+        tasa de bits: 160Kbps,
+        canales: 2
+    },
+    mejor: 
+    { 
+        tasa de bits: 256Kbps,
+        canales: 2
+    },
+    frecuencia de muestreo: 44100Khz,
+}
+wav: {
+    cinta: 
+    {
+        frecuencia de muestreo: 22050Khz - 20Khz
+    },
+    cd: 
+    {
+        frecuencia de muestreo: 44100Khz - 44.1Khz
+    },
+    dvd:
+    { 
+        frecuencia de muestreo: 48000Khz - 48Khz,
+    },
+    alta: 
+    {
+        frecuencia de muestreo: 96000Khz - 96Khz,
+    },
+    canales: 2,
+}
+flac: {
+    frecuencia de muestreo: 
+    [
+        8000Khz,
+        11025Khz,
+        12000Khz,
+        16000Khz,
+        22050Khz,
+        24000Khz,
+        32000Khz,
+        44100Khz,
+        48000Khz,
+    ]
+}
+amr: {
+    tasa de bits constante: 
+    [
+        12.20kbps,
+        10.20kbps,
+        7.95kbps,
+        7.40kbps,
+        6.70kbps,
+        5.90kbps,
+        5.15kbps,
+        4.75kbps,
+    ]
+}

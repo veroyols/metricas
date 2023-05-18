@@ -14,6 +14,7 @@ http_method = "POST"
 http_uri = "/v1/identify"
 # default: "fingerprint" it's for recognizing fingerprint, 
 # identify audio: data_type="audio"
+#data_type = "audio"
 data_type = "audio"
 signature_version = "1"
 timestamp = time.time()
