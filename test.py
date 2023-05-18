@@ -28,35 +28,34 @@ sign = base64.b64encode(hmac.new(access_secret.encode('ascii'), string_to_sign.e
 # File size: < 1M 
 # Duration < 15 seconds
 
-###OPCION 2
-#files = []
-#audio_folder = "c:\\repositorios\metricas\media"  # Ruta de la carpeta que contiene los archivos de audio
-# Iterar sobre los archivos de audio en la carpeta
-#for filename in os.listdir(audio_folder):
-#    file_path = os.path.join(audio_folder, filename)
-#    if os.path.isfile(file_path):
-#        files.append(('sample', (filename, open(file_path, 'rb'), 'audio/mpeg')))
+#f = open(sys.argv[0], "rb")
+#sample_bytes = os.path.getsize(sys.argv[0])
 
-
-f = open(sys.argv[0], "rb")
-sample_bytes = os.path.getsize(sys.argv[0])
-
-file_path = 'c:\\repositorios\\metricas\\media\\'
+folder_path = 'c:\\repositorios\\metricas\\media\\'
 #file_audio = 'lianne-la-havas-wonderful-live.mp3'
-file_audio = 'do-i-wanna-know-official-video.mp3'
+#file_audio = 'do-i-wanna-know-official-video.mp3'
 
-files = [
-    ('sample', (file_audio, open(os.path.join(file_path, file_audio), 'rb'), 'audio/mpeg'))
-]
+###OPCION 1
+#files.append(('sample', (file_audio, open(os.path.join(folder_path, file_audio), 'rb'), 'audio/mpeg')))
 
+###OPCION 2
+responses = {}
+for item in os.listdir(folder_path):
+    file_path = os.path.join(folder_path, item)
+    if os.path.isfile(file_path): #si no es directorio
+        file =[('sample', (item, open(file_path, 'rb'), 'audio/mpeg'))]
+        sample_bytes = os.path.getsize(file_path)
+        data = {
+            'access_key': access_key,
+            'sample_bytes': sample_bytes, #'sample_bytes': '',
+            'timestamp': str(timestamp), #'timestamp': timestamp
+            'signature': sign,
+            'data_type': data_type,
+            "signature_version": signature_version
+            }
+        response = requests.post(requrl, files=file, data=data)
+        response.encoding = "utf-8"
+        #responses.append(response.json())
+        responses[item] = response.json()
 
-data = {'access_key': access_key,
-        'sample_bytes': sample_bytes, #'sample_bytes': '',
-        'timestamp': str(timestamp), #'timestamp': timestamp
-        'signature': sign,
-        'data_type': data_type,
-        "signature_version": signature_version}
-
-response = requests.post(requrl, files=files, data=data)
-response.encoding = "utf-8"
-print(response.json())
+print(responses)

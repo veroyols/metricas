@@ -1,9 +1,13 @@
+Requerimientos:
+    python 3.11
+    pip install requests
+
+PS C:\repositorios\metricas> python test.py
+
 Variables: 
     Formato: mp3,wav,wma,amr,ogg, ape,acc,spx,m4a,mp4,FLAC
-    Calidad: kbit/s
-
+    Calidad: kbit/s (32 - 64 - 128 // 192 - 256 - 320)
     Grabacion: Estudio - En vivo
 
-    Ej: mp3 : 32kbit/s - 64kbit/s - 128kbit/s // 192kbit/s - 256kbit/s - 320kbit/s
-
-python 3.11
+Ej: 
+    mp3 128kbit/s
