@@ -1,129 +1,3552 @@
 [
     {
-        "archive": "do-i-wanna-know-official-video (online-audio-converter.16000).flac",
-        "response": 
-        {
-            "metadata": 
-            {
-                "timestamp_utc": "2023-05-18 19: 07: 24", 
-                "music": [
-                    {
-                        "db_begin_time_offset_ms": 3000, 
-                        "db_end_time_offset_ms": 14340, 
-                        "sample_begin_time_offset_ms": 0, 
-                        "sample_end_time_offset_ms": 11340, 
-                        "play_offset_ms": 14920, 
-                        "genres": [
-                            {
-                                "name": "Alternative"
-                            }
-                        ], 
-                        "title": "Do I Wanna Know?", 
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.16000).flac",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 1063921,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.8580000400543,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
                         "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
                             "name": "AM"
-                        }, 
-                        "acrid": "7ba416e859845247a65db99a7fb77211", 
-                        "external_ids": {}, 
-                        "external_metadata": {
-                            "spotify": {
-                                "track": {
-                                    "name": "Do I Wanna Know?", 
-                                    "id": "2UzMpPKPhbcC8RbsmuURAZ"
-                                }, 
-                                "album": {
-                                    "name": "AM", 
-                                    "id": "41vPD50kQ7JeamkxQW7Vuy"
-                                }, 
-                                "artists": [
-                                    {
-                                        "name": "Arctic Monkeys", "id": "7Ln80lUS6He07XvHI8qqHH"
-                                    }
-                                ]
-                            }
-                        }, 
-                        "result_from": 3, 
-                        "score": 100, 
-                        "release_date": "2013-01-01", 
-                        "label": "Universal Music", 
-                        "duration_ms": 271716, 
-                        "artists": [
-                            {
-                                "name": "Arctic Monkeys"
-                            }
-                        ]
-                    },
-                    {
-                        "album": {
-                            "name": "Zbc"
-                        }, "label": "Tate Music Group", "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
-                        "external_ids": {}, "external_metadata": {
-                            "spotify": {
-                                "track": {
-                                    "name": "Simple & Plain", "id": "3JkPJe3Jvm72ygWlOCFIyy"
-                                }, "album": {
-                                    "name": "Zbc", "id": "1RD9aRjw13KwgDoSYAcEWR"
-                                }, "artists": [
-                                    {
-                                        "name": "Dinamite & Young Pharaoh", "id": "6thJTGN6VDSqRsXl6DaknZ"
-                                    }
-                                ]
-                            }
-                        }, "result_from": 3, "sample_begin_time_offset_ms": 0, "sample_end_time_offset_ms": 11100, "play_offset_ms": 14720, "artists": [
-                            {
-                                "name": "Dinamite & Young Pharaoh"
-                            }
-                        ], "score": 100, "release_date": "2014-12-16", "db_begin_time_offset_ms": 2800, "db_end_time_offset_ms": 13900, "duration_ms": 73328, "title": "Simple & Plain", "genres": [
-                            {
-                                "name": "Hip Hop"
-                            }
-                        ]
-                    },
-                    {
-                        "album": {
-                            "name": "Crawl Back"
-                        }, "acrid": "2570caebabba6f8519e7e732679dd70d", "external_ids": {}, "db_end_time_offset_ms": 14180, "sample_begin_time_offset_ms": 0, "sample_end_time_offset_ms": 11320, "play_offset_ms": 14780, "artists": [
-                            {
-                                "name": "Down Low Tha B365t"
-                            },
-                            {
-                                "name": "Kristastrophe"
-                            }
-                        ], "score": 100, "release_date": "2018-03-03", "result_from": 3, "label": "Fire Breather Recordz", "db_begin_time_offset_ms": 2860, "duration_ms": 308783, "title": "Crawl Back", "external_metadata": {
-                            "spotify": {
-                                "track": {
-                                    "name": "Crawl Back", "id": "2jCTjyZ3oqfUWihOYiVEE7"
-                                }, "album": {
-                                    "name": "Crawl Back", "id": "0rXZGF5uZHMf5fU5qoIRRI"
-                                }, "artists": [
-                                    {
-                                        "name": "Down Low Tha B365t", "id": "0WZAMjC46oxm4lEB5p7NhJ"
-                                    },
-                                    {
-                                        "name": "Kristastrophe", "id": "5XiBcOXSdat8gC5jpAllAD"
-                                    }
-                                ]
-                            }
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
                         }
                     }
-                ]
-            }, 
-            "cost_time": 1.8770000934601, 
-            "status": {
-                "code": 0, 
-                "msg": "Success", 
-                "version": "1.0"
-            }, 
-            "result_type": 0
-        }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "release_date": "2013-01-01",
+                "score": 100,
+                "title": "Do I Wanna Know?",
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "db_end_time_offset_ms": 14340,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14920,
+                "result_from": 3,
+                "album": {
+                    "name": "AM"
+                },
+                "db_begin_time_offset_ms": 3000
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2800,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11100,
+                "play_offset_ms": 14720,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2860,
+                "db_end_time_offset_ms": 14180,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:07"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.22050).flac",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 1377953,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
     },
-    {        
-        "archive": "lianne-la-havas-wonderful-live.mp3",
-        "response": {
-            "status": {
-                "code": 0, 
-                "msg": "Success", 
-                "version": "1.0"
-            }
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.9650001525879,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "db_begin_time_offset_ms": 3000,
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "score": 100,
+                "db_end_time_offset_ms": 14340,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14880,
+                "result_from": 3,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "album": {
+                    "name": "AM"
+                }
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2800,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11100,
+                "play_offset_ms": 14680,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2840,
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14720,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:09"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.24000).flac",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 1476622,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.9949998855591,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "score": 100,
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "duration_ms": 271716,
+                "db_end_time_offset_ms": 14340,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14920,
+                "result_from": 3,
+                "album": {
+                    "name": "AM"
+                },
+                "db_begin_time_offset_ms": 3000
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2800,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11100,
+                "play_offset_ms": 14720,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2860,
+                "db_end_time_offset_ms": 14180,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:12"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.32000).flac",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 1844428,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "result_type": 0,
+        "status": {
+            "msg":"Success",
+            "version": "1.0",
+            "code": 0
+        },
+        "cost_time": 2.2659997940063,
+        "metadata": {
+            "timestamp_utc": "2023-05-19 11:03:15",
+            "music": [{
+                "duration_ms": 271716,
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "db_begin_time_offset_ms": 3000,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Do I Wanna Know?",
+                "play_offset_ms": 14920,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "external_ids": {},
+                "score": 100,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "release_date": "2013-01-01",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "sample_end_time_offset_ms": 11340,
+                "db_end_time_offset_ms": 14340,
+                "album": {
+                    "name": "AM"
+                }
+            }, {
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "duration_ms": 73328,
+                "release_date": "2014-12-16",
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "db_begin_time_offset_ms": 2800,
+                "db_end_time_offset_ms": 13900,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Simple & Plain",
+                "play_offset_ms": 14720,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "external_ids": {},
+                "sample_end_time_offset_ms": 11100,
+                "score": 100,
+                "album": {
+                    "name": "Zbc"
+                }
+            }, {
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }],
+                "duration_ms": 308783,
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "db_end_time_offset_ms": 14180,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "external_ids": {},
+                "title": "Crawl Back",
+                "score": 100,
+                "db_begin_time_offset_ms": 2860,
+                "album": {
+                    "name": "Crawl Back"
+                }
+            }]
         }
     }
-]
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.44100).flac",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 2268753,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 2.364000082016,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "album": {
+                    "name": "AM"
+                },
+                "label": "Universal Music",
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "score": 100,
+                "db_end_time_offset_ms": 14340,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14880,
+                "result_from": 3,
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "db_begin_time_offset_ms": 3000
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2800,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11100,
+                "play_offset_ms": 14680,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2840,
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14720,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:18"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.48000).flac",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 2369141,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 2.481999874115,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "release_date": "2013-01-01",
+                "db_begin_time_offset_ms": 3000,
+                "title": "Do I Wanna Know?",
+                "score": 100,
+                "db_end_time_offset_ms": 14340,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14920,
+                "result_from": 3,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "album": {
+                    "name": "AM"
+                }
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2800,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11100,
+                "play_offset_ms": 14720,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2860,
+                "db_end_time_offset_ms": 14180,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:21"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.buena).m4a",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 309824,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.3700001239777,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "score": 100,
+                "db_begin_time_offset_ms": 3000,
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "db_end_time_offset_ms": 14740,
+                "sample_begin_time_offset_ms": 0,
+                "play_offset_ms": 15000,
+                "result_from": 3,
+                "album": {
+                    "name": "AM"
+                },
+                "sample_end_time_offset_ms": 11740
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 14140,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2800,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14800,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2840,
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14840,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:22"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.buena).ogg",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 262232,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.3840000629425,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "album": {
+                    "name": "AM"
+                },
+                "label": "Universal Music",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "score": 100,
+                "db_end_time_offset_ms": 14740,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11740,
+                "play_offset_ms": 14980,
+                "result_from": 3,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "db_begin_time_offset_ms": 3000
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2800,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11100,
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2860,
+                "db_end_time_offset_ms": 14180,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14840,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:24"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.buena160kbps).mp2",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 305026,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "result_type": 0,
+        "status": {
+            "msg":"Success",
+            "version": "1.0",
+            "code": 0
+        },
+        "cost_time": 1.3989999294281,
+        "metadata": {
+            "timestamp_utc": "2023-05-19 11:03:26",
+            "music": [{
+                "duration_ms": 271716,
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "db_begin_time_offset_ms": 3020,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Do I Wanna Know?",
+                "play_offset_ms": 14960,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "external_ids": {},
+                "score": 100,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "release_date": "2013-01-01",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "db_end_time_offset_ms": 14380,
+                "album": {
+                    "name": "AM"
+                },
+                "sample_end_time_offset_ms": 11360
+            }, {
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "duration_ms": 73328,
+                "release_date": "2014-12-16",
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "db_begin_time_offset_ms": 2780,
+                "db_end_time_offset_ms": 13900,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Simple & Plain",
+                "play_offset_ms": 14740,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "external_ids": {},
+                "sample_end_time_offset_ms": 11120,
+                "score": 100,
+                "album": {
+                    "name": "Zbc"
+                }
+            }, {
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }],
+                "duration_ms": 308783,
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "external_ids": {},
+                "title": "Crawl Back",
+                "score": 100,
+                "db_begin_time_offset_ms": 2820,
+                "album": {
+                    "name": "Crawl Back"
+                }
+            }]
+        }
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.buena256kbps).mp2",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 485584,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.6040000915527,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "album": {
+                    "name": "AM"
+                },
+                "label": "Universal Music",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "score": 100,
+                "db_end_time_offset_ms": 14380,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11360,
+                "play_offset_ms": 14960,
+                "result_from": 3,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "db_begin_time_offset_ms": 3020
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2780,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11120,
+                "play_offset_ms": 14740,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2820,
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:28"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.com).amr",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 24070,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "result_type": 0,
+        "status": {
+            "msg":"Success",
+            "version": "1.0",
+            "code": 0
+        },
+        "cost_time": 0.5699999332428,
+        "metadata": {
+            "timestamp_utc": "2023-05-19 11:03:29",
+            "music": [{
+                "duration_ms": 271716,
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "db_begin_time_offset_ms": 3720,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Do I Wanna Know?",
+                "play_offset_ms": 14980,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "external_ids": {},
+                "score": 100,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "release_date": "2013-01-01",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "sample_end_time_offset_ms": 10600,
+                "db_end_time_offset_ms": 14320,
+                "album": {
+                    "name": "AM"
+                }
+            }, {
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "duration_ms": 73328,
+                "release_date": "2014-12-16",
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "db_begin_time_offset_ms": 3520,
+                "db_end_time_offset_ms": 13740,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Simple & Plain",
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "external_ids": {},
+                "sample_end_time_offset_ms": 10220,
+                "score": 100,
+                "album": {
+                    "name": "Zbc"
+                }
+            }, {
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }],
+                "duration_ms": 308783,
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "db_end_time_offset_ms": 11180,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 7580,
+                "play_offset_ms": 14860,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "external_ids": {},
+                "title": "Crawl Back",
+                "score": 100,
+                "db_begin_time_offset_ms": 3600,
+                "album": {
+                    "name": "Crawl Back"
+                }
+            }]
+        }
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.com).mp3",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 366465,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.3849999904633,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "album": {
+                    "name": "AM"
+                },
+                "label": "Universal Music",
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "db_end_time_offset_ms": 14740,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11740,
+                "play_offset_ms": 14960,
+                "result_from": 3,
+                "score": 100,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "db_begin_time_offset_ms": 3000
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2800,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11100,
+                "play_offset_ms": 14760,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2860,
+                "db_end_time_offset_ms": 14180,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14820,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:31"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.com-cd).wav",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 2650380,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "result_type": 0,
+        "status": {
+            "msg":"Success",
+            "version": "1.0",
+            "code": 0
+        },
+        "cost_time": 2.5940001010895,
+        "metadata": {
+            "timestamp_utc": "2023-05-19 11:03:34",
+            "music": [{
+                "duration_ms": 271716,
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "db_begin_time_offset_ms": 3000,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Do I Wanna Know?",
+                "play_offset_ms": 15000,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "external_ids": {},
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "release_date": "2013-01-01",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "score": 100,
+                "sample_end_time_offset_ms": 11740,
+                "db_end_time_offset_ms": 14740,
+                "album": {
+                    "name": "AM"
+                }
+            }, {
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "duration_ms": 73328,
+                "release_date": "2014-12-16",
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "db_begin_time_offset_ms": 2800,
+                "db_end_time_offset_ms": 14140,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Simple & Plain",
+                "play_offset_ms": 14800,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "external_ids": {},
+                "sample_end_time_offset_ms": 11340,
+                "score": 100,
+                "album": {
+                    "name": "Zbc"
+                }
+            }, {
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }],
+                "duration_ms": 308783,
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14840,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "external_ids": {},
+                "title": "Crawl Back",
+                "score": 100,
+                "db_begin_time_offset_ms": 2840,
+                "album": {
+                    "name": "Crawl Back"
+                }
+            }]
+        }
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.com-cinta).wav",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 1325264,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.9660000801086,
+        "result_type": 0,
+        "metadata": {
+            "music": [{
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        },
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }]
+                    }
+                },
+                "result_from": 3,
+                "label": "Universal Music",
+                "score": 100,
+                "duration_ms": 271716,
+                "db_begin_time_offset_ms": 3000,
+                "db_end_time_offset_ms": 14740,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11740,
+                "play_offset_ms": 15000,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "release_date": "2013-01-01",
+                "album": {
+                    "name": "AM"
+                },
+                "title": "Do I Wanna Know?"
+            }, {
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        },
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }]
+                    }
+                },
+                "result_from": 3,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "label": "Tate Music Group",
+                "score": 100,
+                "duration_ms": 73328,
+                "album": {
+                    "name": "Zbc"
+                },
+                "release_date": "2014-12-16",
+                "db_end_time_offset_ms": 14140,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14800,
+                "db_begin_time_offset_ms": 2800,
+                "title": "Simple & Plain"
+            }, {
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        },
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }]
+                    }
+                },
+                "result_from": 3,
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }],
+                "score": 100,
+                "duration_ms": 308783,
+                "release_date": "2018-03-03",
+                "label": "Fire Breather Recordz",
+                "title": "Crawl Back",
+                "db_begin_time_offset_ms": 2840,
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14840,
+                "album": {
+                    "name": "Crawl Back"
+                }
+            }],
+            "timestamp_utc": "2023-05-19 11:03:37"
+        }
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.com-dvd).wav",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 2884752,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "result_type": 0,
+        "status": {
+            "msg":"Success",
+            "version": "1.0",
+            "code": 0
+        },
+        "cost_time": 2.779000043869,
+        "metadata": {
+            "timestamp_utc": "2023-05-19 11:03:40",
+            "music": [{
+                "duration_ms": 271716,
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "db_begin_time_offset_ms": 3000,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Do I Wanna Know?",
+                "play_offset_ms": 14960,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "external_ids": {},
+                "score": 100,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "release_date": "2013-01-01",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "sample_end_time_offset_ms": 11740,
+                "db_end_time_offset_ms": 14740,
+                "album": {
+                    "name": "AM"
+                }
+            }, {
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "duration_ms": 73328,
+                "release_date": "2014-12-16",
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "db_begin_time_offset_ms": 2800,
+                "db_end_time_offset_ms": 13900,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Simple & Plain",
+                "play_offset_ms": 14760,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "external_ids": {},
+                "sample_end_time_offset_ms": 11100,
+                "score": 100,
+                "album": {
+                    "name": "Zbc"
+                }
+            }, {
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }],
+                "duration_ms": 308783,
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14800,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "external_ids": {},
+                "title": "Crawl Back",
+                "score": 100,
+                "db_begin_time_offset_ms": 2840,
+                "album": {
+                    "name": "Crawl Back"
+                }
+            }]
+        }
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.com-extra).wav",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 2884752,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 2.7149999141693,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "album": {
+                    "name": "AM"
+                },
+                "label": "Universal Music",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "score": 100,
+                "db_end_time_offset_ms": 14740,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11740,
+                "play_offset_ms": 14960,
+                "result_from": 3,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "db_begin_time_offset_ms": 3000
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2800,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11100,
+                "play_offset_ms": 14760,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2840,
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14800,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:44"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.economico).m4a",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 124565,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.1139998435974,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "score": 100,
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "db_end_time_offset_ms": 14740,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11740,
+                "play_offset_ms": 15000,
+                "result_from": 3,
+                "album": {
+                    "name": "AM"
+                },
+                "db_begin_time_offset_ms": 3000
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 14120,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2780,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2860,
+                "db_end_time_offset_ms": 14180,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14860,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:45"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.economico).mp2",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 124468,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.1050000190735,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "album": {
+                    "name": "AM"
+                },
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "score": 100,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "db_end_time_offset_ms": 14340,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14940,
+                "result_from": 3,
+                "db_begin_time_offset_ms": 3000
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2780,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11120,
+                "play_offset_ms": 14740,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2820,
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:47"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.economico).ogg",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 247937,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.3030002117157,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "album": {
+                    "name": "AM"
+                },
+                "label": "Universal Music",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "score": 100,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "db_end_time_offset_ms": 14740,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11740,
+                "result_from": 3,
+                "play_offset_ms": 14980,
+                "db_begin_time_offset_ms": 3000
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2800,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11100,
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2860,
+                "db_end_time_offset_ms": 14180,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14840,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:49"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.estandar).m4a",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 248661,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.3209998607635,
+        "result_type": 0,
+        "metadata": {
+            "music": [{
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        },
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }]
+                    }
+                },
+                "result_from": 3,
+                "label": "Universal Music",
+                "score": 100,
+                "duration_ms": 271716,
+                "db_end_time_offset_ms": 14740,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11740,
+                "play_offset_ms": 15000,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "release_date": "2013-01-01",
+                "album": {
+                    "name": "AM"
+                },
+                "db_begin_time_offset_ms": 3000,
+                "title": "Do I Wanna Know?"
+            }, {
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        },
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }]
+                    }
+                },
+                "result_from": 3,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "label": "Tate Music Group",
+                "score": 100,
+                "duration_ms": 73328,
+                "album": {
+                    "name": "Zbc"
+                },
+                "release_date": "2014-12-16",
+                "db_end_time_offset_ms": 13900,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11100,
+                "play_offset_ms": 14800,
+                "db_begin_time_offset_ms": 2800,
+                "title": "Simple & Plain"
+            }, {
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        },
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }]
+                    }
+                },
+                "result_from": 3,
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }],
+                "score": 100,
+                "duration_ms": 308783,
+                "release_date": "2018-03-03",
+                "label": "Fire Breather Recordz",
+                "title": "Crawl Back",
+                "db_begin_time_offset_ms": 2840,
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14840,
+                "album": {
+                    "name": "Crawl Back"
+                }
+            }],
+            "timestamp_utc": "2023-05-19 11:03:50"
+        }
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.estandar).ogg",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 215746,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "result_type": 0,
+        "status": {
+            "msg":"Success",
+            "version": "1.0",
+            "code": 0
+        },
+        "cost_time": 1.4370000362396,
+        "metadata": {
+            "timestamp_utc": "2023-05-19 11:03:52",
+            "music": [{
+                "duration_ms": 271716,
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "db_begin_time_offset_ms": 3000,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Do I Wanna Know?",
+                "play_offset_ms": 15000,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "external_ids": {},
+                "score": 100,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "release_date": "2013-01-01",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "sample_end_time_offset_ms": 11740,
+                "album": {
+                    "name": "AM"
+                },
+                "db_end_time_offset_ms": 14740
+            }, {
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "duration_ms": 73328,
+                "release_date": "2014-12-16",
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "db_begin_time_offset_ms": 2800,
+                "db_end_time_offset_ms": 14140,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Simple & Plain",
+                "play_offset_ms": 14800,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "external_ids": {},
+                "sample_end_time_offset_ms": 11340,
+                "score": 100,
+                "album": {
+                    "name": "Zbc"
+                }
+            }, {
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }],
+                "duration_ms": 308783,
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "db_end_time_offset_ms": 14180,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14860,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "external_ids": {},
+                "title": "Crawl Back",
+                "score": 100,
+                "db_begin_time_offset_ms": 2860,
+                "album": {
+                    "name": "Crawl Back"
+                }
+            }]
+        }
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.estandar128kbps).mp2",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 244840,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.4070000648499,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "album": {
+                    "name": "AM"
+                },
+                "label": "Universal Music",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "db_end_time_offset_ms": 14340,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14940,
+                "result_from": 3,
+                "db_begin_time_offset_ms": 3000,
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2780,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11120,
+                "play_offset_ms": 14740,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2820,
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11340,
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:54"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.mejor).m4a",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 482879,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "result_type": 0,
+        "status": {
+            "msg":"Success",
+            "version": "1.0",
+            "code": 0
+        },
+        "cost_time": 1.6059999465942,
+        "metadata": {
+            "timestamp_utc": "2023-05-19 11:03:56",
+            "music": [{
+                "duration_ms": 271716,
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "db_begin_time_offset_ms": 3000,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Do I Wanna Know?",
+                "play_offset_ms": 15000,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "external_ids": {},
+                "score": 100,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "release_date": "2013-01-01",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "db_end_time_offset_ms": 14740,
+                "album": {
+                    "name": "AM"
+                },
+                "sample_end_time_offset_ms": 11740
+            }, {
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "duration_ms": 73328,
+                "release_date": "2014-12-16",
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "db_begin_time_offset_ms": 2800,
+                "db_end_time_offset_ms": 14140,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Simple & Plain",
+                "play_offset_ms": 14800,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "external_ids": {},
+                "sample_end_time_offset_ms": 11340,
+                "score": 100,
+                "album": {
+                    "name": "Zbc"
+                }
+            }, {
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }],
+                "duration_ms": 308783,
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14840,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "external_ids": {},
+                "title": "Crawl Back",
+                "score": 100,
+                "db_begin_time_offset_ms": 2840,
+                "album": {
+                    "name": "Crawl Back"
+                }
+            }]
+        }
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video (online-audio-converter.mejor).ogg",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 411678,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "status": {
+            "version": "1.0",
+            "code": 0,
+            "msg":"Success"
+        },
+        "cost_time": 1.603000164032,
+        "metadata": {
+            "music": [{
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "duration_ms": 271716,
+                "album": {
+                    "name": "AM"
+                },
+                "label": "Universal Music",
+                "release_date": "2013-01-01",
+                "title": "Do I Wanna Know?",
+                "score": 100,
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "db_end_time_offset_ms": 14740,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11740,
+                "play_offset_ms": 14980,
+                "result_from": 3,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "db_begin_time_offset_ms": 3000
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "release_date": "2014-12-16",
+                "title": "Simple & Plain",
+                "db_end_time_offset_ms": 13900,
+                "duration_ms": 73328,
+                "db_begin_time_offset_ms": 2800,
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11100,
+                "play_offset_ms": 14780,
+                "result_from": 3,
+                "album": {
+                    "name": "Zbc"
+                },
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "score": 100
+            }, {
+                "external_ids": {},
+                "external_metadata": {
+                    "spotify": {
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "score": 100,
+                "duration_ms": 308783,
+                "db_begin_time_offset_ms": 2840,
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14820,
+                "result_from": 3,
+                "album": {
+                    "name": "Crawl Back"
+                },
+                "title": "Crawl Back",
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }]
+            }],
+            "timestamp_utc": "2023-05-19 11:03:58"
+        },
+        "result_type": 0
+    }
+}, {
+    "archive": "do-i-wanna-know-official-video.mp3",
+    "data": {
+        "access_key": "018707c3fb7c6e5c0d0896ebea400107",
+        "sample_bytes": 240774,
+        "timestamp": "1684494186.452321",
+        "signature": "eZgjJKprQWwC2lMqCvISPEspBbM=",
+        "data_type": "audio",
+        "signature_version": "1"
+    },
+    "response": {
+        "result_type": 0,
+        "status": {
+            "msg":"Success",
+            "version": "1.0",
+            "code": 0
+        },
+        "cost_time": 1.3470001220703,
+        "metadata": {
+            "timestamp_utc": "2023-05-19 11:04:00",
+            "music": [{
+                "duration_ms": 271716,
+                "acrid": "7ba416e859845247a65db99a7fb77211",
+                "db_begin_time_offset_ms": 3000,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Do I Wanna Know?",
+                "play_offset_ms": 15000,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"41vPD50kQ7JeamkxQW7Vuy",
+                            "name": "AM"
+                        },
+                        "artists": [{
+                            "id":"7Ln80lUS6He07XvHI8qqHH",
+                            "name": "Arctic Monkeys"
+                        }],
+                        "track": {
+                            "id":"2UzMpPKPhbcC8RbsmuURAZ",
+                            "name": "Do I Wanna Know?"
+                        }
+                    }
+                },
+                "external_ids": {},
+                "score": 100,
+                "artists": [{
+                    "name": "Arctic Monkeys"
+                }],
+                "release_date": "2013-01-01",
+                "genres": [{
+                    "name": "Alternative"
+                }],
+                "label": "Universal Music",
+                "sample_end_time_offset_ms": 11740,
+                "db_end_time_offset_ms": 14740,
+                "album": {
+                    "name": "AM"
+                }
+            }, {
+                "artists": [{
+                    "name": "Dinamite & Young Pharaoh"
+                }],
+                "duration_ms": 73328,
+                "release_date": "2014-12-16",
+                "genres": [{
+                    "name": "Hip Hop"
+                }],
+                "acrid": "6b77b95ac5af1addf03458bd8adcfcef",
+                "db_begin_time_offset_ms": 2800,
+                "db_end_time_offset_ms": 14140,
+                "sample_begin_time_offset_ms": 0,
+                "title": "Simple & Plain",
+                "play_offset_ms": 14800,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"1RD9aRjw13KwgDoSYAcEWR",
+                            "name": "Zbc"
+                        },
+                        "artists": [{
+                            "id":"6thJTGN6VDSqRsXl6DaknZ",
+                            "name": "Dinamite & Young Pharaoh"
+                        }],
+                        "track": {
+                            "id":"3JkPJe3Jvm72ygWlOCFIyy",
+                            "name": "Simple & Plain"
+                        }
+                    }
+                },
+                "label": "Tate Music Group",
+                "external_ids": {},
+                "sample_end_time_offset_ms": 11340,
+                "score": 100,
+                "album": {
+                    "name": "Zbc"
+                }
+            }, {
+                "artists": [{
+                    "name": "Down Low Tha B365t"
+                }, {
+                    "name": "Kristastrophe"
+                }],
+                "duration_ms": 308783,
+                "release_date": "2018-03-03",
+                "acrid": "2570caebabba6f8519e7e732679dd70d",
+                "db_end_time_offset_ms": 14160,
+                "sample_begin_time_offset_ms": 0,
+                "sample_end_time_offset_ms": 11320,
+                "play_offset_ms": 14840,
+                "result_from": 3,
+                "external_metadata": {
+                    "spotify": {
+                        "album": {
+                            "id":"0rXZGF5uZHMf5fU5qoIRRI",
+                            "name": "Crawl Back"
+                        },
+                        "artists": [{
+                            "id":"0WZAMjC46oxm4lEB5p7NhJ",
+                            "name": "Down Low Tha B365t"
+                        }, {
+                            "id":"5XiBcOXSdat8gC5jpAllAD",
+                            "name": "Kristastrophe"
+                        }],
+                        "track": {
+                            "id":"2jCTjyZ3oqfUWihOYiVEE7",
+                            "name": "Crawl Back"
+                        }
+                    }
+                },
+                "label": "Fire Breather Recordz",
+                "external_ids": {},
+                "title": "Crawl Back",
+                "score": 100,
+                "db_begin_time_offset_ms": 2840,
+                "album": {
+                    "name": "Crawl Back"
+                }
+            }]
+        }
+    }
+}]

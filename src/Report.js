@@ -153,12 +153,16 @@ const Report = (data) => { //data = [{"archive" : archive, "response": response}
                 "cost_time": element.response.cost_time,
                 "title": element.response.metadata.music[0].title,
                 "album": element.response.metadata.music[0].album.name,
-                "artist": element.response.metadata.music[0].artists[0].name
+                "artist": element.response.metadata.music[0].artists[0].name,
+                "data": element.data
             }
             success.push(info)
         }
         else if (element.response.status.code === 1001) {
-            notRecognize.push({ "nameFile" : element.archive})
+            notRecognize.push({ 
+                "nameFile" : element.archive, 
+                "data": element.data
+            })
         } 
     }
     let report = {
