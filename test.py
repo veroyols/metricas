@@ -2,9 +2,9 @@ import base64
 import hashlib
 import hmac
 import os
-import sys
 import time
 import requests
+
 
 access_key = "018707c3fb7c6e5c0d0896ebea400107"
 access_secret = "paoHmtERn4lCY3my9Iw1TrvVSdrdoiTlamnRajMr"
@@ -22,8 +22,7 @@ timestamp = time.time()
 string_to_sign = http_method + "\n" + http_uri + "\n" + access_key + "\n" + data_type + "\n" + signature_version + "\n" + str(
     timestamp)
 
-sign = base64.b64encode(hmac.new(access_secret.encode('ascii'), string_to_sign.encode('ascii'),
-                                 digestmod=hashlib.sha1).digest()).decode('ascii')
+sign = base64.b64encode(hmac.new(access_secret.encode('ascii'), string_to_sign.encode('ascii'), digestmod=hashlib.sha1).digest()).decode('ascii')
 
 # suported file formats: mp3,wav,wma,amr,ogg, ape,acc,spx,m4a,mp4,FLAC
 # File size: < 1M 
@@ -32,17 +31,24 @@ sign = base64.b64encode(hmac.new(access_secret.encode('ascii'), string_to_sign.e
 #f = open(sys.argv[0], "rb")
 #sample_bytes = os.path.getsize(sys.argv[0])
 
-folder_path = 'c:\\repositorios\\metricas\\media\\'
+track_name = 'doIWannaKnow'
+media_path = 'c:\\repositorios\\metricas\\media\\' + track_name
+responses_path = 'c:\\repositorios\\metricas\\responses\\'
+responses_file = os.path.join(responses_path, track_name +'.json')
+
 #file_audio = 'lianne-la-havas-wonderful-live.mp3'
 #file_audio = 'do-i-wanna-know-official-video.mp3'
 
 ###OPCION 1
-#files.append(('sample', (file_audio, open(os.path.join(folder_path, file_audio), 'rb'), 'audio/mpeg')))
+#files.append(('sample', (file_audio, open(os.path.join(media_path, file_audio), 'rb'), 'audio/mpeg')))
 
 ###OPCION 2
-responses = {}
-for item in os.listdir(folder_path):
-    file_path = os.path.join(folder_path, item)
+responses = []
+notRecognize = 0
+success = 0
+
+for item in os.listdir(media_path):
+    file_path = os.path.join(media_path, item)
     if os.path.isfile(file_path): #si no es directorio
         file =[('sample', (item, open(file_path, 'rb'), 'audio/mpeg'))]
         sample_bytes = os.path.getsize(file_path)
@@ -56,7 +62,14 @@ for item in os.listdir(folder_path):
             }
         response = requests.post(requrl, files=file, data=data)
         response.encoding = "utf-8"
-        #responses.append(response.json())
-        responses[item] = response.json()
-
+        responses.append(
+            {
+                "archive" : item, 
+                "response": response.json()
+            })
 print(responses)
+
+
+with open(responses_file, 'w') as file:
+    file.write(str(responses))
+

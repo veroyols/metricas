@@ -3,6 +3,8 @@ Requerimientos:
     pip install requests
 
 PS C:\repositorios\metricas> python test.py
+PS C:\repositorios\metricas\src> node Report.js
+no se como importar el js en py
 
 Variables: 
     Formato: mp3,wav,wma,amr,ogg, ape,acc,spx,m4a,mp4,FLAC
@@ -12,13 +14,16 @@ Variables:
 Ej: 
     mp3 128kbit/s
     use frecuencia de muestreo 44100khz
-    run yarn watch-build f5
-    jsoncrack-vscode.start
 
+VER JSON
+https://jsoncrack.com/editor
 
+CONVERTER
 https://online-audio-converter.com/es/
 tasa de bits: constante o variable?
-tasa de bits constante
+tasa de bits constante: cantidad de datos por segundo utilizados para representar el sonido.
+frecuencia de muestreo: cantidad de muestras tomadas por segundo para capturar el sonido. 
+
 mp3: {
     economico: 
     { 
@@ -111,3 +116,20 @@ amr: {
         4.75kbps,
     ]
 }
+
+Grupo 1: Excelente calidad 
+    Formato WAV (frecuencia de muestreo de 96000KHz - 96KHz, 2 canales)
+    Formato FLAC (frecuencia de muestreo de 44100KHz, 2 canales)
+
+Grupo 2: Buena calidad 
+    WAV (frecuencia de muestreo de 48000KHz - 48KHz, 2 canales, DVD)
+    MP3, MP2, M4A, OGG (tasa de bits de 256Kbps, 2 canales)
+
+Grupo 3: Calidad regular 
+    WAV (frecuencia de muestreo de 22050KHz - 20KHz, 2 canales, cinta)
+    MP3, MP2, M4A, OGG (tasa de bits de 128Kbps, 2 canales)
+    FLAC (frecuencia de muestreo: 8000KHz, 11025KHz, 12000KHz, 16000KHz, 22050KHz, 24000KHz, 32000KHz)
+
+Grupo 4: Baja calidad 
+    MP3, MP2, M4A, OGG (tasa de bits de 64Kbps, 1 canal)
+    AMR (tasas de bits constantes: 12.20Kbps, 10.20Kbps, 7.95Kbps, 7.40Kbps, 6.70Kbps, 5.90Kbps, 5.15Kbps, 4.75Kbps)
