@@ -21,8 +21,8 @@ https://jsoncrack.com/editor
 CONVERTER
 https://online-audio-converter.com/es/
 tasa de bits: constante o variable?
-tasa de bits constante: cantidad de datos por segundo utilizados para representar el sonido.
-frecuencia de muestreo: cantidad de muestras tomadas por segundo para capturar el sonido. 
+frecuencia de muestreo: muestras por segundo para capturar la amplitud. Mas muestras ~ Onda original
+tasa de bits constante: datos por segundo para representar la muestra, resolucion. Mas muestras ~ mas niveles de amplitud representa
 
 mp3: {
     economico: 
@@ -133,3 +133,4 @@ Grupo 3: Calidad regular
 Grupo 4: Baja calidad 
     MP3, MP2, M4A, OGG (tasa de bits de 64Kbps, 1 canal)
     AMR (tasas de bits constantes: 12.20Kbps, 10.20Kbps, 7.95Kbps, 7.40Kbps, 6.70Kbps, 5.90Kbps, 5.15Kbps, 4.75Kbps)
+

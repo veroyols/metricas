@@ -1,0 +1,22 @@
+{
+    "success": [{
+        "nameFile": "do-i-wanna-know-official-video (online-audio-converter.estandar128kbps).mp2",
+        "info": {
+            "cost_time": 1.3300001621246,
+            "title": "Do I Wanna Know?",
+            "album": "AM",
+            "artist": "Arctic Monkeys"
+        },
+        "data": {
+            "sample_bytes": 244840,
+            "timestamp": "1684589168.7210805"
+        }
+    }],
+    "error": [{
+        "nameFile": "lianne-la-havas-wonderful-live.mp3",
+        "data": {
+            "sample_bytes": 240758,
+            "timestamp": "1684589168.7210805"
+        }
+    }]
+}

@@ -4,6 +4,7 @@ import hmac
 import os
 import time
 import requests
+import json
 
 
 access_key = "018707c3fb7c6e5c0d0896ebea400107"
@@ -12,15 +13,11 @@ requrl = "http://identify-eu-west-1.acrcloud.com/v1/identify"
 
 http_method = "POST"
 http_uri = "/v1/identify"
-# default: "fingerprint" it"s for recognizing fingerprint, 
-# identify audio: data_type="audio"
-#data_type = "audio"
-data_type = "audio"
+data_type = "audio" # default: "fingerprint" it"s for recognizing fingerprint, 
 signature_version = "1"
 timestamp = time.time()
 
-string_to_sign = http_method + "\n" + http_uri + "\n" + access_key + "\n" + data_type + "\n" + signature_version + "\n" + str(
-    timestamp)
+string_to_sign = http_method + "\n" + http_uri + "\n" + access_key + "\n" + data_type + "\n" + signature_version + "\n" + str(timestamp)
 
 sign = base64.b64encode(hmac.new(access_secret.encode("ascii"), string_to_sign.encode("ascii"), digestmod=hashlib.sha1).digest()).decode("ascii")
 
@@ -28,10 +25,7 @@ sign = base64.b64encode(hmac.new(access_secret.encode("ascii"), string_to_sign.e
 # File size: < 1M 
 # Duration < 15 seconds
 
-#f = open(sys.argv[0], "rb")
-#sample_bytes = os.path.getsize(sys.argv[0])
-
-track_name = "doIWannaKnow"
+track_name = "wonderful" # ==nombre de la carpeta
 media_path = "c:\\repositorios\\metricas\\media\\" + track_name
 responses_path = "c:\\repositorios\\metricas\\responses\\"
 responses_file = os.path.join(responses_path, track_name +".json")
@@ -44,8 +38,6 @@ responses_file = os.path.join(responses_path, track_name +".json")
 
 ###OPCION 2
 responses = []
-notRecognize = 0
-success = 0
 
 for item in os.listdir(media_path):
     file_path = os.path.join(media_path, item)
@@ -62,18 +54,15 @@ for item in os.listdir(media_path):
             }
         response = requests.post(requrl, files=file, data=data)
         response.encoding = "utf-8"
-        responses.append(
-            {
-                "archive" : item, 
-                "data" : data,
-                "response": response.json()
+        responses.append({
+            "item": item,
+            "data": data,
+            "response" : response.json()
             })
-
 #Aca iria el Report del response asi se guarda
 
 print(responses)
 
-
 with open(responses_file, "w") as file:
-    file.write(str(responses))
-
+    json.dump(responses, file, ensure_ascii=False)
+    #file.write(str(responses))
